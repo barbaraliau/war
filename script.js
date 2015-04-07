@@ -16,7 +16,7 @@ $(document).ready(function() {
 			}
 		}
 		return value.toString();
-	}
+	};
 
 	//what does this do?
 	var deck = [];
@@ -41,20 +41,20 @@ $(document).ready(function() {
 		 	} 
 		} 
 		return copy; 
-	}
+	};
 	
 	//Now call the shuffle function and save the result of what shuffle returns into your deck variable
 	
 	var cards_player_1 = [];
 	var cards_player_2 = [];
-	// write a function called deal that will evently divide the deck up between the two players
+	// write a function called deal that will evenly divide the deck up between the two players
 	
 	
 	//create a function (algorithm) called "war" that takes two cards as parameters, compares them and returns a winner. A tie should return false.
 	var war = function(){
 	
 		
-	}
+	};
 	
 	var advance = function(){
 		//take the top two cards and display them
@@ -67,7 +67,7 @@ $(document).ready(function() {
 			$("#my-card-count").html(cards_player_2.length);
 			
 		}
-	}
+	};
 	
 	
 	//create a play function
@@ -77,7 +77,7 @@ $(document).ready(function() {
 		
 		//this function (defined below) will continue to the next turn
 		advance();
-	}
+	};
 	
 
 	advance();
